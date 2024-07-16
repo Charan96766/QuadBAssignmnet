@@ -1,0 +1,46 @@
+.todoTasksDiv {
+    width:100%; 
+    background-color:whitesmoke;  
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-between; 
+    font-size: 1.3rem; 
+    border: 2px solid gray;
+    margin-bottom: 3px;  
+    padding-inline:3px; 
+    color:black; 
+} 
+
+.mainTodoTaskCont {
+    text-align: center;  
+    margin-top: 15px;
+} 
+
+/* .todoTasksDiv input, span {
+    width:10px;  
+    margin-left: 10px;
+}   */ 
+
+
+.todoTasksDiv input {
+ width:18px;
+}
+.numberSpan {
+    width:10px;  
+    margin-left: 10px;
+} 
+
+
+.taskSpan {
+    width: 100%;
+}
+
+
+
+
+.todoTasksDiv input , .edit ,.delete:hover {
+    cursor: pointer;
+}  
+
+
+
